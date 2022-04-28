@@ -12,6 +12,10 @@ import ModifierS from '@/components/eventmodifiers'
 import KeyModifiers from '@/components/keymodifiers'
 import JsexpressioN from '@/components/jsexpression'
 import TwoBinding from '@/components/twowaybinding'
+import ComputeD from '@/components/computed'
+import ComputeD1 from '@/components/computedbrief'
+import IfconditioN from '@/components/conditionals/ifcondition'
+
 
 vue.use(Router)
 const routes = [
@@ -27,6 +31,10 @@ const routes = [
     { path: '/9th', name: "KeyModifiers", component: KeyModifiers },
     { path: '/10th', name: "JsexpressioN", component: JsexpressioN },
     { path: '/11th', name: "TwoBinding", component: TwoBinding },
+    { path: '/12th', name: "ComputeD", component: ComputeD },
+    { path: '/13th', name: "ComputeD1", component: ComputeD1 },
+    { path: '/14th', name: "IfconditioN ", component: IfconditioN },
+
 
 ]
 
