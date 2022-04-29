@@ -15,6 +15,7 @@ import TwoBinding from '@/components/twowaybinding'
 import ComputeD from '@/components/computed'
 import ComputeD1 from '@/components/computedbrief'
 import IfconditioN from '@/components/conditionals/ifcondition'
+// import ApP1 from '@/components/componentscommunication/app'
 
 
 vue.use(Router)
@@ -33,7 +34,8 @@ const routes = [
     { path: '/11th', name: "TwoBinding", component: TwoBinding },
     { path: '/12th', name: "ComputeD", component: ComputeD },
     { path: '/13th', name: "ComputeD1", component: ComputeD1 },
-    { path: '/14th', name: "IfconditioN ", component: IfconditioN },
+    { path: '/14th', name: "IfconditioN", component: IfconditioN },
+    // { path: '/15th', name: "components", component: ApP1 },
 
 
 ]
