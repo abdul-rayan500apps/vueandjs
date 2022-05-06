@@ -1,0 +1,50 @@
+<html>
+
+<body>
+    <script>
+        function Person() {
+            this.name = 'john',
+                this.age = 20,
+                this.hobbies = ['reading', 'writing', 'speaking'],
+                this.greet() = function() {
+                    console.log('hello every one');
+                },
+                this.score = {
+                    Maths: 90,
+                    science: 80
+                }
+        }
+        const person = new Person();
+        console.log(typeof person);
+        console.log(person.hobbies[0]);
+        console.log(person.score.maths);
+        person.greet();
+        // program to create JavaScript object using instance of an object
+
+        function Person() {
+            this.name = 'John',
+                this.age = 20,
+                this.hobbies = ['reading', 'games', 'coding'],
+                this.greet = function() {
+                    console.log('Hello everyone.');
+                },
+                this.score = {
+                    maths: 90,
+                    science: 80
+                }
+
+        }
+
+        // const person = new Person();
+
+        console.log(typeof person); // object
+
+        // accessing the object value
+        console.log(person.name);
+        console.log(person.hobbies[0]);
+        person.greet();
+        console.log(person.score.maths);
+    </script>
+</body>
+
+</html>
